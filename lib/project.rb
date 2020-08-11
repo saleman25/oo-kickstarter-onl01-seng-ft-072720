@@ -8,7 +8,8 @@ def initialize(title)
 end 
 
 def add_backer(backer)
-  @backers << backer 
+  @backers << backer
+  backer.project = self
 end 
 
 
